@@ -125,4 +125,6 @@ const generateIntern = function (intern) {
       `;
   }
 
+  module.exports = Htmlpage;
+
   
