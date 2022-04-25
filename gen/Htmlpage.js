@@ -1,3 +1,8 @@
+const manager = require('../library/manager')
+const engineer = require('../library/engineer')
+const intern = require('../library/intern')
+
+
 const generateManager = function (manager) {
   return `
     <div class="container">
