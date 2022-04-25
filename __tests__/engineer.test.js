@@ -14,5 +14,7 @@ describe('should get github and return it.', () => {
 test ('role should return engineer', () => {
     const roleReturn = "Engineer";
     const e = new Engineer('David', 123, "davidle@hotmai.com", "DavidLe");
-    expect(e.getRole()).tobe(roleReturn;)
+    expect(e.getRole()).tobe(roleReturn)
 })
+
+module.exports = Engineer
